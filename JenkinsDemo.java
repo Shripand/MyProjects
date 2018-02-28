@@ -17,6 +17,6 @@ public class JenkinsDemo {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.seleniumhq.org");
 		Thread.sleep(5000);
-		driver.close();
+		
 	}
 }
